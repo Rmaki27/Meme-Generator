@@ -62,4 +62,10 @@ main {
   font-family: "Karla", sans-serif;
   color: #ffffff;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.Meme--img {
+  margin-top: 2em;
+  width: 100%;
 }
