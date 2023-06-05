@@ -1,5 +1,5 @@
 import Header from './components/Header'
-import Form from './components/Form.jsx'
+import Meme from './components/Meme.jsx'
 import './App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <Form />
+      <Meme />
     </>
   )
 }
