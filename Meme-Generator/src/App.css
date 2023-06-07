@@ -36,7 +36,7 @@ body {
   margin-right: 0.8em;
 }
 
-.Meme--container {
+.Meme--form {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 1.5em;
@@ -46,7 +46,7 @@ main {
   padding: 2.25em;
 }
 
-.Meme--container > input {
+.Meme--form > input {
   text-indent: 0.7em;
   font-family: "Karla", sans-serif;
   border: 1.4px solid #d5d4d8;
@@ -68,4 +68,34 @@ main {
 .Meme--img {
   margin-top: 2em;
   width: 100%;
+}
+
+.Meme--container {
+  position: relative;
+}
+
+.Meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
